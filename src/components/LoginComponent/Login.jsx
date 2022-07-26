@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./login.css";
+import logo from "../../assets/logo8.png";
 
 class App extends Component {
   handleSubmit = e => {
@@ -33,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <img src={logo} className="logo" alt="Business view - Reports" /> */}
+        <img src={logo} className="logo" alt="Business view - Reports" />
         <form className="form" onSubmit={this.handleSubmit}>
           <div className="input-group">
             <label htmlFor="email">Email</label>
