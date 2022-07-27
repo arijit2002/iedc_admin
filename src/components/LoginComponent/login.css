@@ -47,9 +47,9 @@
   .input-group {
     margin-bottom: 26px;
   }
-  .input-group:nth-last-child(-n + 2) {
+  /* .input-group:nth-last-child(-n + 2) {
     margin-bottom: 50px;
-  }
+  } */
   .input-group > label,
   .input-group > input {
     font-family: 'Roboto', sans-serif;
@@ -73,6 +73,9 @@
     outline: 0;
     padding: 0 15px;
     transition: all 0.3s;
+    border: thick;
+    border-style: double;
+    border-radius: 10px;
   }
   .input-group > input:focus {
     background: #fff;
