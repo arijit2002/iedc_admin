@@ -35,7 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         <img src={logo} className="logo" alt="Business view - Reports" />
-        <form className="form" onSubmit={this.handleSubmit}>
+        <form className="form" onSubmit={this.handleSubmit} autoComplete="off">
           <div className="input-group">
             <label htmlFor="email">Email</label>
             <input type="email" name="email" placeholder="nome@email.com.br" />
