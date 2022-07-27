@@ -37,14 +37,14 @@ class App extends Component {
         <img src={logo} className="logo" alt="Business view - Reports" />
         <form className="form" onSubmit={this.handleSubmit} autoComplete="off">
           <div className="input-group">
-            <label htmlFor="email">Email</label>
-            <input type="email" name="email" placeholder="nome@email.com.br" />
+            <label htmlFor="username">Username</label>
+            <input type="text" name="email" placeholder="enter your username here" />
           </div>
           <div className="input-group">
             <label htmlFor="password">Password</label>
             <input type="password" name="password" placeholder="enter your password here" />
           </div>
-          <button className="primary">Login</button>
+          <button className="login">Login</button>
         </form>
       </div>
     );
