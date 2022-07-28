@@ -31,11 +31,11 @@ class App extends Component {
         <form className="form" onSubmit={this.handleSubmit} autoComplete="off">
           <div className="input-group">
             {/* <label htmlFor="username">Username</label> */}
-            <input type="text" name="username" placeholder="enter your username here" required />
+            <input type="text" name="username" placeholder="Enter your username here" required />
           </div>
           <div className="input-group">
             {/* <label htmlFor="password">Password</label> */}
-            <input type="password" name="password" placeholder="enter your password here"required />
+            <input type="password" name="password" placeholder="Enter your password here"required />
           </div>
           <button className="login">Login</button>
         </form>
