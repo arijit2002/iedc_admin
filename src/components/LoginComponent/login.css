@@ -36,6 +36,7 @@
     padding-top: 46px;
     text-align: center;
     width: 80%;
+    height: 50%;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -81,6 +82,7 @@
   }
   .input-group > input:focus {
     background: rgb(124, 66, 66);
+    height: 51px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     background-color: transparent;
     border-color: #030303;
