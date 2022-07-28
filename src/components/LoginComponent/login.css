@@ -86,9 +86,10 @@
     border-color: #030303;
   }
   .input-group > input::placeholder {
-    color: #c4c4c4;
+    color: #c2aeae;
     font-size: 16px;
     background-color: transparent;
+    opacity: 0.5;
   }
   
   button {
