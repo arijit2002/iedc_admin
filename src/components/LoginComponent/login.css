@@ -76,19 +76,20 @@
     outline: 0;
     padding: 0 15px;
     transition: all 0.3s;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(29, 9, 9, 0.37);
     background-color: transparent;
+    border-radius: 10px;
     border: none;
   }
   .input-group > input:focus {
     background: rgb(124, 66, 66);
     height: 51px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(7, 5, 5, 0.37);
     background-color: transparent;
     border-color: #030303;
   }
   .input-group > input::placeholder {
-    color: #c2aeae;
+    color: #a18888;
     font-size: 16px;
     background-color: transparent;
     opacity: 0.5;
