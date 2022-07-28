@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./login.css";
 import logo from "../../assets/logo8.png";
-import bg from "../../assets/Login.png";
 
 class App extends Component {
   handleSubmit = e => {
