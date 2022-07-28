@@ -13,8 +13,8 @@ class App extends Component {
     } else if (!e.target.password.value) {
       alert("Password is required");
     } else if (
-      e.target.email.value === "me@example.com" &&
-      e.target.password.value === "123456"
+      e.target.email.value === "enter username" &&
+      e.target.password.value === "enter Password"
     ) {
       alert("Successfully logged in");
       e.target.email.value = "";
