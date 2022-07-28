@@ -55,9 +55,6 @@
   .input-group {
     margin-bottom: 26px;
   }
-  /* .input-group:nth-last-child(-n + 2) {
-    margin-bottom: 50px;
-  } */
   .input-group > label,
   .input-group > input {
     font-family: 'Roboto', sans-serif;
