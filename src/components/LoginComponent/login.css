@@ -79,7 +79,7 @@
   }
   .input-group > input:focus {
     background: #fff;
-    border-color: #c4c4c4;
+    border-color: #030303;
   }
   .input-group > input::placeholder {
     color: #c4c4c4;
@@ -89,7 +89,7 @@
   button {
     border-radius: 10px;
     border: none;
-    color: #fff;
+    color: rgb(252, 124, 5);
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -102,9 +102,10 @@
     width: 50%;
   }
   button.login {
-    background: #f58733;
+    background: #ffffff;
   }
   button.login:hover {
     background: #ff6f00;
+    color: #f2f2f5;
   }
   

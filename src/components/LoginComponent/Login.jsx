@@ -5,8 +5,7 @@ import logo from "../../assets/logo8.png";
 class App extends Component {
   handleSubmit = e => {
     e.preventDefault();
-    console.log(e.target.email.value);
-
+    //console.log(e.target.email.value);
     if (!e.target.email.value) {
       alert("Email is required");
     } else if (!e.target.email.value) {
@@ -38,11 +37,11 @@ class App extends Component {
         <form className="form" onSubmit={this.handleSubmit} autoComplete="off">
           <div className="input-group">
             <label htmlFor="username">Username</label>
-            <input type="text" name="email" placeholder="enter your username here" />
+            <input type="text" name="username" placeholder="enter your username here" required />
           </div>
           <div className="input-group">
             <label htmlFor="password">Password</label>
-            <input type="password" name="password" placeholder="enter your password here" />
+            <input type="password" name="password" placeholder="enter your password here"required />
           </div>
           <button className="login">Login</button>
         </form>
