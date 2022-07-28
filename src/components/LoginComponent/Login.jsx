@@ -24,12 +24,6 @@ class App extends Component {
     }
   };
 
-  handleClick = e => {
-    e.preventDefault();
-
-    alert("Goes to registration page");
-  };
-
   render() {
     return (
       <div className="App">
