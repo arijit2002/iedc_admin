@@ -110,12 +110,14 @@
     transition: background 0.3s;
     width: 50%;
   }
-  button.login:hover {
-    background: #ffffff;
-    color: rgb(150, 52, 52);
-  }
   button.login{
     background: rgb(150, 52, 52);
     color: #f2f2f5;
+    box-shadow: 0 8px 32px 0 rgba(156, 40, 40, 0.37);
+  }
+  button.login:hover {
+    background: #e2cbcb;
+    color: rgb(150, 52, 52);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
   }
   
