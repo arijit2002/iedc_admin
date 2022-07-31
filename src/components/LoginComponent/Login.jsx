@@ -1,8 +1,8 @@
 import React from "react";
+import { Redirect} from 'react-router-dom';
 import "./login.css";
 import { useState } from 'react';
 import logo from "../../assets/logo8.png";
-import { Dashboard } from "../DashboardComponent/Dashboard";
  
 function App() {
   const [name, setName] = useState('');
@@ -47,7 +47,7 @@ function App() {
           </>
         ) : (
           <>
-            <Dashboard />
+          <Redirect to="/dashboard" />
           </>
         )}
       </div>
